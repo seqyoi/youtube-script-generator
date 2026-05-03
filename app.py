@@ -5,7 +5,7 @@ st.title("YouTube Script Generator")
 
 topic = st.text_input("Enter video topic")
 tone = st.selectbox("Select tone", ["Informative", "Casual", "Funny", "Motivational"])
-duration = st.slider("Video length (minutes)", 1, 15, 5)
+duration = st.slider("Video length (minutes)", 1, 10, 5)
 
 if st.button("Generate Script"):
     if topic:
