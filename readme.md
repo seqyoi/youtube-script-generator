@@ -21,28 +21,26 @@ This project is an AI-powered YouTube script generator that creates engaging vid
 - LangChain 
 
 ## Project Structure
-project/
-│── app.py                # Streamlit UI
-│── script_generator.py   # Core AI logic
-│── .env                  # API key (not pushed to GitHub)
-│── requirements.txt      # Dependencies
+project/ \
+│── app.py                # Streamlit UI \
+│── script_generator.py   # Core AI logic \
+│── .env                  # API key (not pushed to GitHub) \
+│── requirements.txt      # Dependencies \
 │── README.md 
 
 ## Setup Instructions
-1. Clone the repository
-```git clone https://github.com/your-username/youtube-script-generator.git```
+1. Clone the repository: \
+```git clone https://github.com/your-username/youtube-script-generator.git``` \
 ```cd youtube-script-generator```
-2. Create virtual environment (optional but recommended)
-```python -m venv venv```
+2. Create virtual environment (optional but recommended) \
+```python -m venv venv``` \
 ```venv\Scripts\activate ```  # Windows
-3. Install dependencies
+3. Install dependencies: \
 ```pip install -r requirements.txt```
-4. Add API key: Create a .env file:
-
-```GOOGLE_API_KEY=your_api_key_here```
-Get your API key from Google AI Studio.
-
-5. Run the app
+4. Add API key: Create a .env file \
+   ```GOOGLE_API_KEY=your_api_key_here``` \
+    Get your API key from Google AI Studio.
+6. Run the app: \
 ```streamlit run app.py```
 
 ## Security Note
@@ -51,5 +49,5 @@ Get your API key from Google AI Studio.
 - Never expose API keys publicly
 
 ## Author
-Cilus Duwadi
+Cilus Duwadi \
 Project focused on AI + backend integration using Gemini API.
